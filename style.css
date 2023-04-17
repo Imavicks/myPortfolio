@@ -4,6 +4,11 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+body {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 header {
     display: flex;
     position: relative;
@@ -25,12 +30,12 @@ header {
     text-decoration: none;
     font-size: 20px;
     font-family:cursive;
-    color:chocolate;
+    color:crimson;
 }
 
 .nav-left {
     position: relative;
-    left: 45rem;
+    left: 52rem;
 }
 
 .nav-left a {
@@ -54,12 +59,13 @@ section {
     background-image: url(abstract-digital-grid-black-background.jpg);
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 50vh;
 }
 
 .text {
     position: relative;
-    margin: 20px;
+    margin: 25px;
+    padding: 15px;
     left: 35rem;
 }
 
@@ -84,7 +90,7 @@ section {
 .socials {
     display: flex;
     position: relative;
-    left: 35rem;
+    left: 38rem;
     margin: 10px;
 }
 
@@ -112,7 +118,7 @@ section {
 .profile {
     display: flex;
     position: relative;
-    background-color: rgb(237, 204, 174);
+    background-color: rgb(223, 220, 232);
     margin: 10px;
     padding: 5px;
 }
@@ -120,9 +126,9 @@ section {
 .profile img {
     position: relative;
     width: 24rem;
-    height: 25rem;
+    height: 30rem;
     left: 5rem;
-    bottom: 12rem;
+    bottom: 16rem;
 }
 
 .description {
